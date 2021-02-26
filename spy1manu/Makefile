@@ -1,2 +1,4 @@
+PYTHONDONTWRITEBYTECODE=1
+
 default:
-	PYTHONPATH=$(@D) python3 -B testSubmission/subTest.py
+	PYTHONPATH=$(@D) python3 testSubmission/subTest.py
