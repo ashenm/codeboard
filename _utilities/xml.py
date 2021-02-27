@@ -8,6 +8,10 @@
 #
 
 def innerText(element):
+
+  if not element.text:
+    return element.text
+
   return ' '.join(element.text.split())
 
 # vim: set expandtab shiftwidth=2:
